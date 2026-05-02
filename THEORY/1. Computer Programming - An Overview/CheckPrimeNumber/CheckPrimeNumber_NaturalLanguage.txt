@@ -1,0 +1,18 @@
+Start the program
+    Define "num" variable.
+    Define "n" variable and set 0 to "n"
+
+    Initialize an infinite loop
+    Let the user prompt "num"
+    Check if "num" is greater than 1.
+        If true,
+            Initialize a for loop, i starts at 1 and stop if i > num.
+            Check if num % i == 0.
+                If true, increase i by 1.
+                If false, ignore.
+            
+            Check if n == 2.
+                If true, print out "Prime" and break out the loop.
+                If false, print out "Non-prime" and break out the loop.
+        If false, print out "ERROR" and let the user prompt again.
+End the program.
