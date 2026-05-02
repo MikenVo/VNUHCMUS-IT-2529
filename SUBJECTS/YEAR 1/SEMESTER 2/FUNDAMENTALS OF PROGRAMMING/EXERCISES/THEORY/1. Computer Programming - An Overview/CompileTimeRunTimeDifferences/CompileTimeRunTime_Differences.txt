@@ -1,7 +1,0 @@
-1. Compile-Time error
-- Appears when the compiler cannot understand the source code.
-- Maybe there are syntax errors in the source code.
-
-2. Run-TIme error
-- The compiler successfully compile the source code, but when executing the program, errors appear.
-- Maybe wrong input data type or illegal operations.

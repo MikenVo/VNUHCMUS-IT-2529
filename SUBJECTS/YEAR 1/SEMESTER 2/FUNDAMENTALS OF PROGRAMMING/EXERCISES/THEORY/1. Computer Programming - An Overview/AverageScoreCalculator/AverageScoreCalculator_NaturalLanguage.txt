@@ -1,9 +1,0 @@
-Start the program
-- Get the scores of Math, Physics and Chemistry from the user.
-- Define the coefficient of each subject and store in them 2.0.
-- Check if the scores are greater than or equal to 0.
-    If true, check if the scores are smaller than or equal to 10.
-        If true, print out the answer of (math_coe*math_score + phy_coe*phy_score + chem_coe*chem_score)/6
-        If false, print out "ERROR" and let the user prompt again
-    If false, print out "ERROR" and let the user prompt again
-End the program.
