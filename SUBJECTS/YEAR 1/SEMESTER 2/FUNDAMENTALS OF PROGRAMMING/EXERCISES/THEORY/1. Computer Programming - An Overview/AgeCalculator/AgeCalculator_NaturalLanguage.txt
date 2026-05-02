@@ -1,0 +1,7 @@
+Start the program.
+First, get the user's birth year.
+Second, set today year to 2025 (based on reality).
+Third, check if the year is greater than or equal to 0.
+    If true, print out the answer of today_year - year, and stop the program.
+    If false, print out "Error", and continue let the user prompt again.
+End the program.

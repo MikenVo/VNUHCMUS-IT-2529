@@ -1,0 +1,16 @@
+START
+    float height, weight;
+
+    WHILE (TRUE) {
+        INPUT height, weight
+
+        IF (height > 10 AND weight > 0) {
+            PRINT weight/(height*height)
+            BREAK;
+        }
+        ELSE {
+            PRINT "ERROR"
+            CONTINUE;
+        }
+    }
+END

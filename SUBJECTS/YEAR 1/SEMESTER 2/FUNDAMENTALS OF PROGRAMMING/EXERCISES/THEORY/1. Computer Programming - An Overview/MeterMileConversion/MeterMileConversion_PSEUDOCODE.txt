@@ -1,0 +1,38 @@
+START
+    int number;
+
+    INPUT number
+
+    IF (number == 1) {
+        float meters;
+
+        WHILE (TRUE) {
+            INPUT meters
+        
+            IF (meters >= 0) {
+                PRINT meters/1609.344
+                BREAK;
+            }
+            ELSE {
+                PRINT "ERROR"
+                CONTINUE;
+            }
+        }
+    }
+    ELSE {
+        float miles;
+
+        WHILE (TRUE) {
+            INPUT miles;
+
+            IF (miles >= 0) {
+                PRINT miles*1609.344
+                BREAK;
+            }
+            ELSE {
+                PRINT "ERROR"
+                CONTINUE;
+            }
+        }
+    }
+END
