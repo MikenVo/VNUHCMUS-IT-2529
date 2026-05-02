@@ -1,0 +1,17 @@
+START
+    int year;
+    int today_year = 2025;
+
+    INPUT year
+
+    WHILE (TRUE) {
+        IF (year >= 0) {
+            PRINT today_year - year
+            BREAK
+        }
+        ELSE {
+            PRINT "ERROR"
+            CONTINUE
+        }
+    }
+END

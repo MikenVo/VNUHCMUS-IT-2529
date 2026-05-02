@@ -1,0 +1,14 @@
+Start the program
+Get the answer from the user
+Check if answer is equal to 1
+    If true,
+        Let the user input the speed
+        Check if speed is greater than 0
+            If true, print the answer of (60/speed) and stop the program
+            If false, print "ERROR" and let the user prompt again
+    If false,
+        Let the user input the pace
+        Check if pace is greater than 0
+            If true, print the answer of (60/pace) and stop the program
+            If false, print "ERROR" and let the user prompt again
+Stop the program

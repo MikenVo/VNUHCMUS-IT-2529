@@ -1,0 +1,22 @@
+START
+    int year;
+
+    INPUT year
+
+    WHILE (TRUE) {
+        IF (year < 0) {
+            IF ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+                PRINT "LEAP YEAR"
+                BREAK;
+            }
+            ELSE {
+                PRINT "NOT A LEAP YEAR"
+                BREAK;
+            }
+        }
+        ELSE {
+            PRINT "ERROR"
+            CONTINUE
+        }
+    }
+END

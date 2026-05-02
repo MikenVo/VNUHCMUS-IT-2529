@@ -1,0 +1,12 @@
+Start the program
+- Get the input from the user
+- Check if the input is equal to 1
+    If true, get the input from the user for the "meters".
+        Check if the input is greater than or equal to 0.
+            If true, print out the answer of (meters/1609.344) and stop the program.
+            If false, print out "ERROR" and let the user prompt again.
+    If false, get the input from the user for the "miles".
+        Check if the input is greater than or equal to 0.
+            If true, print out the answer of (miles*1609.344) and stop the program.
+            If false, print out "ERROR" and let the user prompt again.
+Stop the program
