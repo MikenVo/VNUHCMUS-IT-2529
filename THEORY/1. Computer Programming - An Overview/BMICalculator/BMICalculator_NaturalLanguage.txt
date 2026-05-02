@@ -1,0 +1,7 @@
+Start the program.
+Initialize an infinite loop.
+Get the user's weight and height.
+Check if weight > 0 and height > 10.
+    If true, print the answer of (weight/(height*height)), and stop the program.
+    If false, print "ERROR", and continue let the user prompt again.
+End the program

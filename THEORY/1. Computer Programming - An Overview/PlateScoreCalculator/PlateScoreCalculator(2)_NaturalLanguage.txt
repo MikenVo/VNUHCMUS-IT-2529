@@ -1,0 +1,23 @@
+Start the program.
+- Let the user prompt their plate
+- Check if the number of digits on the plate is equal to 5.
+    If true, 
+        Define a "remainder" int variable.
+        Define a "total" int variable.
+        Define a "length" in variable = 5.
+        Initialize a while loop (break if i is greater than the length of plate number)
+            Store a value (take plate number and modulo by 10) into the "remainder" variable.
+            "total" adds the "remainder"
+            plate number will be divided by 10.
+        
+        Define an "output" int variable.
+        Assign "total" value to "output".
+        Check if "output" is greater than or equal to 10. 
+            If true, 
+                Assign (output % 10) + (output % 100) to "output"
+                Print out the "output".
+            If false,
+                Print out the "output".
+    If false,
+        Print out "ERROR" and let the user prompt again.
+End the program.

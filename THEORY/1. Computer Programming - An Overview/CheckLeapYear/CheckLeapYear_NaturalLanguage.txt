@@ -1,0 +1,11 @@
+Start the program
+- Get the input from the user and store into "year" variable.
+- Initialize an infinite loop
+- Check if the input is greater than 0.
+    If true, check if the input is a leap year.
+        Check if the input % 4 == 0 and % 10 != 0.
+            If true, print out "A leap year".
+            If false, check if the input % 400 == 0.
+                If true, print out "A leap year".
+                If false, print out "Not a leap year".
+    If false, print out ERROR and let the user prompt again. 
