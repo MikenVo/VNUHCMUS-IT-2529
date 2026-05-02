@@ -1,0 +1,7 @@
+Table Generator: https://www.tablesgenerator.com/ 
+
+Equation Editor for online mathematics: https://editor.codecogs.com/
+
+Tex Studio: https://www.texstudio.org/
+
+Tex Live: https://tug.org/texlive/
